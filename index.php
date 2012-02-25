@@ -10,7 +10,7 @@
             <input type="submit" value="New Game">
         </form> 
         <?php
-        // put your code here
+            
         ?>
     </body>
 </html>
