@@ -1,11 +1,18 @@
-<?php require_once"library/header.php"; ?>
+<?php 
+    require_once"library/header.php"; 
+    require_once"library/config.php"
+?>
+
         <a href="newgame.php">New Game</a>
-        <a href="advsearch.php">Advanced Search</a>
+        <br />
+        <br />
         <form name="search" action="search.php" method="get">
-            <text name="searchString" value="Player Name" />
-            <input name="submit" value="Search" />
+            <input tyep="text" value="Type Player Name" />
+            <input type="submit" value="Search" />
         </form>
-        <a href="search.php">Search</a>
-        <?php
-            require_once"library/footer.php"; 
-        ?>
+        <br />
+        <a href="advsearch.php">Advanced Search</a>
+
+<?php
+    require_once"library/footer.php"; 
+?>
