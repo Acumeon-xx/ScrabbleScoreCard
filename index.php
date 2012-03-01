@@ -1,5 +1,5 @@
 <?php 
-    require_once"library/header.php"; 
+    require_once"library/html/header.html"; 
     require_once"library/config.php"
 ?>
 
@@ -14,5 +14,5 @@
         <a href="advsearch.php">Advanced Search</a>
 
 <?php
-    require_once"library/footer.php"; 
+    require_once"library/html/footer.html"; 
 ?>
