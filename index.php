@@ -1,6 +1,6 @@
 <?php 
     require_once"style/header.php"; 
-    require_once"library/config.php"
+    require_once"includes/config.php"
 ?>
 
         <a href="newgame.php">New Game</a>
