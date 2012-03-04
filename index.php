@@ -12,6 +12,14 @@
         </form>
         <br />
         <a href="advsearch.php">Advanced Search</a>
+        <br />
+        <div>
+            <p>Past Games</p>
+            <?php
+                $query = "SELECT FROM * WHERE"
+                $results = mysql_query($results)
+            ?>
+        </div>
 
 <?php
     require_once"style/footer.php"; 
