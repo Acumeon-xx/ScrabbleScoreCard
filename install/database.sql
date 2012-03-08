@@ -17,11 +17,11 @@ create table game(
 );
 
 create table stats (
-    Gameid
-    Maxwordlength
-    Maxwordscore
-    Avgwordlenght
-    Avgwordscore
-    Wins
+    gameid
+    maxwordlength
+    maxwordscore
+    avgwordlenght
+    avgwordscore
+    wins
     losses
 )

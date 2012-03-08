@@ -1,3 +1,7 @@
 <?php
 
+    function gameHistory($query){
+        
+         
+}
 ?>

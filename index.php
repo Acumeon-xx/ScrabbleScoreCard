@@ -1,6 +1,7 @@
 <?php 
     require_once"style/header.php"; 
-    require_once"includes/config.php"
+    require_once"includes/config.php";
+    require_once"includes/functions.php";
 ?>
 
         <a href="newgame.php">New Game</a>
@@ -13,11 +14,15 @@
         <br />
         <a href="advsearch.php">Advanced Search</a>
         <br />
-        <div>
+        <div class ="history">
             <p>Past Games</p>
             <?php
-                $query = "SELECT FROM * WHERE"
-                $results = mysql_query($results)
+                
+                $gh = gameHistory(NULL);
+                while($gh){
+                    echo $gh;
+                }
+
             ?>
         </div>
 
