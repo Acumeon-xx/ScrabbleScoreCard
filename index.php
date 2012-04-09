@@ -1,3 +1,9 @@
+/*
+* Author: Eric Howell
+* email: ehh1974@gmail.com
+*/
+
+
 <?php 
     require_once"includes/header.php"; 
     require_once"includes/config.php";
